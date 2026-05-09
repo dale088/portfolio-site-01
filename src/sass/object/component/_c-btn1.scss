@@ -1,0 +1,58 @@
+@use "global" as *;
+
+.c-btn1 {
+    font-size: rem(18);
+    line-height: calc(28.8 / 18);
+    letter-spacing: .04em;
+    font-weight: 400;
+    text-align: center;
+    background-color: $green;
+    color: $white;
+    display: inline-block;
+    border: solid 1px $white;
+    border-radius: rem(100);
+    box-shadow: 1px 1px 6px rgba(40, 100, 180, 0.06);
+    position: relative;
+    padding: rem(9) rem(46) rem(10);
+    @include mq('md') {
+        padding: rem(14) rem(76) rem(15);
+        min-width: rem(280);
+    }
+}
+.c-btn1:hover {
+    background-color: $white;
+    color: $green;
+    border: 1px solid $green;
+    opacity: 1;
+}
+.c-btn1::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    width: rem(33);
+    height: rem(1);
+    background-color: $white;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: .3s;
+}
+.c-btn1:hover::after {
+    background-color: $green;
+    opacity: 1;
+}
+.c-btn1::before {
+    content: "";
+    width: rem(5);
+    height: rem(5);
+    background-color: $white;
+    right: rem(13.6);
+    top: 50%;
+    position: absolute;
+    border-radius: 50%;
+    transform: translateY(-50%);
+    transition: .3s;
+}
+.c-btn1:hover::before {
+    background-color: $green;
+    opacity: 1;
+}

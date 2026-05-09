@@ -1,0 +1,16 @@
+@use "global" as *;
+
+.p-cards {
+    @include mq('md') {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: rem(30);
+        row-gap: rem(30);
+    }
+}
+.p-cards__item:nth-child(n+2) {
+    margin-top: rem(25);
+    @include mq('md') {
+        margin-top: 0;
+    }
+}

@@ -1,0 +1,30 @@
+@use "global" as *;
+
+.c-section-title {
+    font-size: rem(24);
+    line-height: calc(50.4 / 24);
+    letter-spacing: .08em;
+    font-weight: 500;
+    color: $dark-green;
+    position: relative;
+    display: inline-block;
+    @include mq('md') {
+        font-size: rem(36);
+        line-height: calc(50.4 / 36);
+    }
+}
+.c-section-title::after {
+    content: "";
+    display: block;
+    width: rem(1);
+    height: rem(24);
+    background-color: #46ad41;
+    position: absolute;
+    left: 50%;
+    top: rem(51);
+    transform: translateX(-50%);
+    @include mq('md') {
+        top: rem(61);
+        height: rem(34);
+    }
+}

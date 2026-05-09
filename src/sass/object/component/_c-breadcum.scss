@@ -1,0 +1,35 @@
+@use "global" as *;
+
+.c-breadcum__list {
+    padding-top: rem(77);
+    padding-bottom: rem(17);
+    border-bottom: solid 1px #C8DCF0;
+    display: flex;
+    align-items: center;
+}
+.c-breadcum__home {
+    background-image: url(../images/breadcum-home-icon.svg);
+    background: url(../images/breadcum-home-icon.svg) no-repeat center center / cover;
+    width: rem(14);
+    height: rem(16);
+    color: #C8DCF0;
+    display: block;
+}
+.c-breadcum__item {
+    font-size: rem(13);
+    line-height: calc(13 / 13);
+    font-weight: 400;
+    letter-spacing: .08em;
+    display: block;
+    color: $dark-green;
+}
+.c-breadcum__item:nth-child(2) {
+    margin-left: rem(11);
+}
+.c-breadcum__item:nth-child(n+3) {
+    margin-left: rem(4);
+}
+.c-breadcum__item:nth-child(n+3)::before {
+    content: "-";
+    color: $dark-green;
+}

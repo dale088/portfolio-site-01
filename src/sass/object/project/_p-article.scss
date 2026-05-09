@@ -1,0 +1,23 @@
+@use "global" as *;
+
+.p-article__container {
+    max-width: rem(560);
+    margin-inline: auto;
+    @include mq('md') {
+        max-width: initial;
+        margin-inline: initial;
+    }
+}
+.p-article__title .c-line-title__line {
+    height: rem(1);
+}
+.p-article__title .c-line-title__title--sm {
+    color: $green;
+}
+.p-article-cards__list {
+    margin-top: rem(24);
+    @include mq('md') {
+        max-width: rem(1200);
+        width: 100%;
+    }
+}

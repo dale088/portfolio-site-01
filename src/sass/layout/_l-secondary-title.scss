@@ -1,0 +1,8 @@
+@use "global" as *;
+
+.l-secondary-title {
+    margin-top: rem(122);
+    @include mq('md') {
+        margin-top: rem(163);
+    }
+}

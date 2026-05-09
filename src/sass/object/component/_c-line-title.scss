@@ -1,0 +1,39 @@
+@use "global" as *;
+
+.c-line-title {
+    display: flex;
+    align-items: center;
+}
+.c-line-title__title {
+    font-size: rem(22);
+    font-weight: 500;
+    color: $green;
+    margin-left: rem(9);
+    line-height: calc(44.8 / 22);
+    letter-spacing: .04em;
+    @include mq('md') {
+        font-size: rem(28);
+        line-height: calc(44.8 / 28);
+    }
+}
+.c-line-title__line {
+    display: block;
+    min-width: rem(34);
+    height: rem(2);
+    background-color: $green;
+}
+.c-line-title__title.c-line-title__title--sub {
+    font-weight: 400;
+}
+.c-line-title__line--sm {
+    height: rem(1);
+    background-color: $green;
+    // color: $green;
+}
+.c-line-title__title--sm {
+    font-size: rem(14);
+    font-family: $font-sub;
+    line-height: calc(22.4 / 14);
+    font-weight: 400;
+    margin-left: rem(12);
+}

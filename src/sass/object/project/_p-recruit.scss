@@ -1,0 +1,74 @@
+@use "global" as *;
+
+.p-recruit__container {
+    display: flex;
+    flex-direction: column-reverse;
+    @include mq('md') {
+        flex-direction: row;
+    }
+}
+.p-recruit__body {
+    // background: linear-gradient(90deg, #3D7BF2 0%, #8CBEF0 100%);
+    background: linear-gradient(90deg, #566246 0%, #95ac75 100%);
+    margin-left: calc(50% - 50vw);
+    padding: rem(55) rem(50) rem(50) rem(40);
+    width: calc(680 / 767 * 100%);
+    margin-top: -20%;
+    position: relative;
+    z-index: 10;
+    @include mq('md') {
+        margin-left: 0;
+        margin-top: 0;
+        width: calc(640 / 1200 * 100%);
+        padding: rem(110) 0 rem(80) rem(80);
+    }
+}
+.p-recruit-body__title {
+    color: $white;
+    margin-left: rem(6);
+}
+.p-recruit-body__title span {
+    background-color: $white;
+}
+.p-recruit-body__text {
+    color: $white;
+    font-size: rem(18);
+    line-height: calc(44 / 18);
+    letter-spacing: .04em;
+    font-weight: 400;
+    margin-top: rem(22);
+    margin-left: rem(6);
+    @include mq('md') {
+        font-size: rem(23);
+        line-height: calc(46 / 23);
+    }
+}
+.p-recruit-body__text br {
+    display: none;
+    @include mq('md') {
+        display: block;
+    }
+}
+
+.p-recruit-body__btn {
+    margin-top: rem(24);
+    @include mq('md') {
+        margin-top: rem(48);
+    }
+}
+.p-recruit__img {
+    margin-right: calc(50% - 50vw);
+    @include mq('md') {
+        width: calc(680 / 1200 * 100%);
+        display: block;
+        flex: 1;
+    }
+}
+.p-recruit__img img {
+    aspect-ratio: 680 / 480;
+    object-fit: cover;
+    @include mq('md') {
+        height: 100%;
+        width: 100%;
+    }
+}

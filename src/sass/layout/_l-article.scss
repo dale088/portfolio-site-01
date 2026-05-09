@@ -1,0 +1,8 @@
+@use "global" as *;
+
+.l-article {
+    margin-top: rem(67);
+    @include mq('md') {
+        margin-top: rem(134);
+    }
+}
