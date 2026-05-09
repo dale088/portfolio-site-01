@@ -1,29 +1,33 @@
-<<<<<<< HEAD
-# gulp-dev_static_flocss_SPtoPC
+# 架空農園サイト コーディング
 
-## 動作が確認できている環境
-- Nodeバージョン v14.16.0
-- Gulp 4系
+デザインカンプをもとに制作した架空の農園サイトです。
+配色や差し替え画像は自分でアレンジしています。
 
-## 使い方
-- ダウンロードしたフォルダをvscodeで開く
-- ターミナルを開き、「 cd gulp 」とコマンドを入力
-- ターミナルを開き、「 npm i 」とコマンドを入力
-- gulpフォルダ直下に、node_modulesとpackage-lock.jsonが生成されるのを確認する
-- 「 npx gulp 」とコマンドを入力するとgulpが動き出す
+## 制作概要
+| 項目 | 内容 |
+|------|------|
+| 制作種別 | デザインカンプ実装 |
+| ページ数 | 2ページ（トップ・サービス） |
 
-## 作業ディレクトリ
-- sassの記述はsrcフォルダの中で行う
-- 画像はsrcフォルダのimagesの中に格納する
-- コンパイルされたCSSと圧縮された画像はdistフォルダの中に出力される
-- htmlはdist直下のhtmlファイルに直接記述する
-- jsはdist直下のjsファイルに直接記述する（圧縮なし）
+## 使用技術
+- HTML
+- CSS / SCSS（FLOCSS設計）
+- JavaScript
+- Gulp（SCSS自動コンパイル・画像圧縮）
 
-## 備考
-- CSS設計はFLOCSS(https://github.com/hiloki/flocss)を採用
-- スマホファースト
-- rem記述を前提# gulp-dev_static_flocss_SPtoPC
-=======
-# portfolio-site-01
-架空の農園サイト| HTML / SCSS / JavaScript
->>>>>>> 76b14d60781a815d8b083b710beb36e9b6610268
+## 実装内容
+- デザインカンプからのコーディング
+- FLOCSS設計によるCSS設計・管理
+- Gulpを用いたタスク自動化
+- ハンバーガーメニュー（JavaScript）
+- スムーススクロール（JavaScript）
+- スマホファーストのレスポンシブ対応
+
+## 工夫した点
+- FLOCSSに基づいたコンポーネント分割でCSSの保守性を意識
+- 配色・画像をオリジナルにアレンジ
+- ヘッダーの追従とMVを過ぎた際は背景色等の変更アニメーション
+
+## サイトURL
+http://cocomate-farm.dale-works.com/
+※閲覧にはBasic認証のID・パスワードが必要です
