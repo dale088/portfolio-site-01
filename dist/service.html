@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
+    <!-- meta情報 -->
+    <title>cocomate農園</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="robots" content="noindex,nofollow">
+    <!-- ogp -->
+    <meta property="og:title" content="">
+    <meta property="og:type" content="">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="">
+    <meta property="og:site_name" content="">
+    <meta property="og:description" content="">
+    <!-- ファビコン -->
+    <link rel="icon" href="#">
+    <!-- css -->
+    <link rel="stylesheet" href="./css/styles.css">
+    <!-- フォント -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&family=Roboto&display=swap"
+        rel="stylesheet">
+    <!-- JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script defer src="./js/script.js"></script>
+</head>
+
+<body>
+    <!-- ヘッダー -->
+    <header class="p-header l-header p-header--secondary">
+        <h1 class="p-header__logo">
+            <a href="index.html">
+                <img src="images/header-logo-green.svg" alt="ココメイトのロゴ">
+            </a>
+        </h1>
+        <div class="p-header__hamburger p-header-hamburger">
+            <input type="checkbox" id="p-header-hamburger-check">
+            <label for="p-header-hamburger-check" class="p-header-hamburger__btn p-header-hamburger__btn--secondary">
+                <span></span>
+            </label>
+            <!-- ハンバーガーメニュ -->
+            <nav class="p-header-hamburger__nav p-header-hamburger-nav">
+                <ul class="p-header-hamburger-nav__list">
+                    <li class="p-header-hamburger-nav__item">
+                        <a href="#">経営理念</a>
+                    </li>
+                    <li class="p-header-hamburger-nav__item">
+                        <a href="#">会社情報</a>
+                    </li>
+                    <li class="p-header-hamburger-nav__item">
+                        <a href="service.html">事業内容</a>
+                    </li>
+                    <li class="p-header-hamburger-nav__item">
+                        <a href="#">ニュース</a>
+                    </li>
+                    <li class="p-header-hamburger-nav__item p-header-hamburger-nav-btn p-header-hamburger-nav__btn">
+                        <a href="#" class="p-header-hamburger-nav-btn__recruit">採用情報</a>
+                        <a href="#" class="p-header-hamburger-nav-btn__contact">お問い合わせ</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <nav class="p-header__nav p-header-nav">
+            <ul class="p-header-nav__list">
+                <li class="p-header-nav__item p-header-nav__item--secondary">
+                    <a href="#">経営理念</a>
+                </li>
+                <li class="p-header-nav__item p-header-nav__item--secondary">
+                    <a href="#">会社情報</a>
+                </li>
+                <li class="p-header-nav__item p-header-nav__item--secondary">
+                    <a href="service.html">事業内容</a>
+                </li>
+                <li class="p-header-nav__item p-header-nav__item--secondary">
+                    <a href="#">ニュース</a>
+                </li>
+                <li class="p-header-nav__item p-header-nav-btn">
+                    <a href="#" class="p-header-nav-btn__recruit">採用情報</a>
+                    <a href="#" class="p-header-nav-btn__contact">お問い合わせ</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!-- 下層タイトル -->
+    <section class="p-secondary-title l-secondary-title">
+        <div class="l-inner">
+            <h2 class="c-secondary-title" data-en="service">事業内容</h2>
+            <div class="c-breadcum">
+                <ul class="c-breadcum__list">
+                    <li class="c-breadcum__item">
+                        <span class="c-breadcum__home"></span>
+                    </li>
+                    <li class="c-breadcum__item">
+                        <a href="index.html">TOP</a>
+                    </li>
+                    <li class="c-breadcum__item">
+                        <a href="#">事業内容</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- 事業内容セクション -->
+    <section class="p-about l-secondary-service-about">
+        <div class="l-inner">
+            <div class="p-about__img">
+                <img src="images/about.jpg" alt="住宅街の外観">
+            </div>
+            <div class="p-about-body p-about__body">
+                <div class="p-about-body__container">
+                    <div class="p-about-body__title">
+                        <h3 class="p-about-body__catch">地震に強い家</h3>
+                        <h2 class="p-about-body__catch">ツヨツヨホーム</h2>
+                    </div>
+                    <p class="p-about-body__text">テキストテキストテキストテキストテキストテキスト<br>
+                        テキストテキストテキストテキストテキスト<br>
+                        テキストテキストテキストテキストテキストテキスト<br>
+                        テキストテキストテキストテキストテキスト<br>
+                        テキストテキストテキストテキストテキストテキストテキストテキ</p>
+                </div>
+                <div class="p-about-body__btn">
+                    <a href="#" class="c-btn2">
+                        詳しく見る
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- サービスセクション -->
+    <section class="p-secodary-service l-secondary-service">
+        <div class="l-inner">
+            <div class="p-secondary-service__title">
+                <h2 class="c-section-title">
+                    cocomate農園のサービス
+                </h2>
+            </div>
+            <div class="p-secondary-service__body p-secondary-service-body">
+                <div class="p-service-feature p-secondary-service-body__feature">
+                    <div class="p-service-feature__img">
+                        <img src="images/service-feature01.jpg" alt="街の外観">
+                    </div>
+                    <div class="p-service-feature__body">
+                        <div class="c-line-title">
+                            <span class="c-line-title__line"></span>
+                            <h2 class="c-line-title__title c-line-title__title--sub">あったかホーム</h2>
+                        </div>
+                        <p class="p-service-feature__text">テキストテキストテキストテキストテキストテキストテキスト<br>
+                            テキストテキストテキストテキストテキスト<br>
+                            テキストテキストテキストテキストテキストテキスト<br>
+                            テキストテキストテキストテキストテキストテキストテキスト<br>
+                            テキストテキストテキストテキストテキストテキスト<br>
+                            テキストテキストテキストテキストテキストテキスト<br>
+                            テキストテキストテキスト<br>
+                            テキストテキストテキストテキストテキスト<br>
+                            テキストテキストテキストテキストテキストテキスト</p>
+                        <div class="p-service-feature__btn">
+                            <a href="#" class="c-btn1">
+                                お問い合わせ
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-service-feature p-secondary-service-body__feature">
+                    <div class="p-service-feature__img">
+                        <img src="images/service-feature02.jpg" alt="街の外観">
+                    </div>
+                    <div class="p-service-feature__body">
+                        <div class="c-line-title">
+                            <span class="c-line-title__line"></span>
+                            <h2 class="c-line-title__title c-line-title__title--sub">匠ホーム</h2>
+                        </div>
+                        <p class="p-service-feature__text">テキストテキストテキストテキストテキストテキストテキスト<br>
+                            テキストテキストテキストテキストテキスト<br>
+                            テキストテキストテキストテキストテキストテキスト<br>
+                            テキストテキストテキストテキストテキストテキストテキスト<br>
+                            テキストテキストテキストテキストテキストテキスト<br>
+                            テキストテキストテキストテキストテキストテキスト<br>
+                            テキストテキストテキスト<br>
+                            テキストテキストテキストテキストテキスト<br>
+                            テキストテキストテキストテキストテキストテキスト</p>
+                        <div class="p-service-feature__btn">
+                            <a href="#" class="c-btn1">
+                                お問い合わせ
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-service-feature p-secondary-service-body__feature">
+                    <div class="p-service-feature__img">
+                        <img src="images/service-feature03.jpg" alt="街の外観">
+                    </div>
+                    <div class="p-service-feature__body p-service-body">
+                        <div class="c-line-title">
+                            <span class="c-line-title__line"></span>
+                            <h2 class="c-line-title__title c-line-title__title--sub">びっくりホーム</h2>
+                        </div>
+                        <p class="p-service-feature__text">テキストテキストテキストテキストテキストテキストテキスト<br>
+                            テキストテキストテキストテキストテキスト<br>
+                            テキストテキストテキストテキストテキストテキスト<br>
+                            テキストテキストテキストテキストテキストテキストテキスト<br>
+                            テキストテキストテキストテキストテキストテキスト<br>
+                            テキストテキストテキストテキストテキストテキスト<br>
+                            テキストテキストテキスト<br>
+                            テキストテキストテキストテキストテキスト<br>
+                            テキストテキストテキストテキストテキストテキスト</p>
+                        <div class="p-service-feature__btn">
+                            <a href="#" class="c-btn1">
+                                お問い合わせ
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- 記事セクション -->
+    <section class="p-secondary-service-article l-article">
+        <div class="l-inner">
+            <div class="p-secondary-service-article__title">
+                <h2 class="c-section-title">
+                    ARTICLES
+                </h2>
+            </div>
+            <div class="p-cards p-secondary-service-article__cards">
+                <a href="#" class="c-card p-cards__item">
+                    <div class="c-card__img">
+                        <img src="images/article-card01.jpg" alt="一軒家">
+                    </div>
+                    <div class="c-card__data">
+                        <p class="c-card__category">カテゴリ</p>
+                        <span class="c-card__line"></span>
+                        <time class="c-card__time" datetime="2022-00-00">2022.00.00</time>
+                    </div>
+                    <p class="c-card__text">ここに記事がはいりますこれはダミーテキストですここに記事がはいりますこれはダミーテキスト</p>
+                </a>
+                <a href="#" class="c-card p-cards__item">
+                    <div class="c-card__img">
+                        <img src="images/article-card02.jpg" alt="一軒家">
+                    </div>
+                    <div class="c-card__data">
+                        <p class="c-card__category">カテゴリ</p>
+                        <span class="c-card__line"></span>
+                        <time class="c-card__time" datetime="2022-00-00">2022.00.00</time>
+                    </div>
+                    <p class="c-card__text">ここに記事がはいりますこれはダミーテキストですここに記事がはいりますこれはダミーテキスト</p>
+                </a>
+                <a href="#" class="c-card p-cards__item">
+                    <div class="c-card__img">
+                        <img src="images/article-card03.jpg" alt="一軒家">
+                    </div>
+                    <div class="c-card__data">
+                        <p class="c-card__category">カテゴリ</p>
+                        <span class="c-card__line"></span>
+                        <time class="c-card__time" datetime="2022-00-00">2022.00.00</time>
+                    </div>
+                    <p class="c-card__text">ここに記事がはいりますこれはダミーテキストですここに記事がはいりますこれはダミーテキスト</p>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- 採用情報セクション -->
+    <section class="p-recruit l-secondary-service-recruit">
+        <div class="l-inner">
+            <div class="p-recruit__container">
+                <div class="p-recruit__body p-recruit-body">
+                    <div class="p-recruit-body__contents">
+                        <div class="p-recruit-body__title">
+                            <div class="c-line-title">
+                                <span class="c-line-title__line"></span>
+                                <h2 class="c-line-title__title--sm">採用情報</h2>
+                            </div>
+                        </div>
+                        <p class="p-recruit-body__text">
+                            cocomate農園で共に働く未来の仲間へ、<br>
+                            組織や文化・代表からの<br>
+                            メッセージを紹介しています。<br>
+                        </p>
+                        <div class="p-recruit-body__btn">
+                            <a href="#" class="c-btn2 c-btn2--bg-white">
+                                採用情報
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-recruit__img">
+                    <img src="images/recruit.jpg" alt="家の設計図">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- フッターセクション -->
+    <footer class="p-footer l-secondary-service-footer">
+        <div class="l-inner">
+            <div class="p-footer__container p-footer-container">
+                <div class="p-footer-main p-footer-container__main">
+                    <div class="p-footer-main__img">
+                        <a href="index.html">
+                            <img src="images/footer-logo.svg" alt="ココメイトのロゴ">
+                        </a>
+                    </div>
+                    <nav class="p-footer-main__nav p-footer-nav">
+                        <ul class="p-footer-nav__list">
+                            <li class="p-footer-nav__item">
+                                <a href="#">会社情報</a>
+                                <ul class="p-footer-nav-sub__list p-footer-nav-sub-list">
+                                    <li class="p-footer-nav-sub-list__item">
+                                        <a href="#">代表メッセージ</a>
+                                    </li>
+                                    <li class="p-footer-nav-sub-list__item">
+                                        <a href="#">会社概要</a>
+                                    </li>
+                                    <li class="p-footer-nav-sub-list__item">
+                                        <a href="#">所在地</a>
+                                    </li>
+                                    <li class="p-footer-nav-sub-list__item">
+                                        <a href="#">オフィスギャラリー</a>
+                                    </li>
+                                    <li class="p-footer-nav-sub-list__item">
+                                        <a href="#">事業紹介</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="p-footer-nav__item">
+                                <a href="#">事業内容</a>
+                                <ul class="p-footer-nav-sub__list p-footer-nav-sub-list">
+                                    <li class="p-footer-nav-sub-list__item">
+                                        <a href="#">セクション名が入る</a>
+                                    </li>
+                                    <li class="p-footer-nav-sub-list__item">
+                                        <a href="#">セクション名が入る</a>
+                                    </li>
+                                    <li class="p-footer-nav-sub-list__item">
+                                        <a href="#">セクション名が入る</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="p-footer-nav__item">
+                                <a href="#">ニュース</a>
+                                <ul class="p-footer-nav-sub__list p-footer-nav-sub-list">
+                                    <li class="p-footer-nav-sub-list__item">
+                                        <a href="#">カテゴリ</a>
+                                    </li>
+                                    <li class="p-footer-nav-sub-list__item">
+                                        <a href="#">カテゴリ</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="p-footer-nav__item">
+                                <a href="#">ブログ</a>
+                                <ul class="p-footer-nav-sub__list p-footer-nav-sub-list">
+                                    <li class="p-footer-nav-sub-list__item">
+                                        <a href="#">カテゴリ</a>
+                                    </li>
+                                    <li class="p-footer-nav-sub-list__item">
+                                        <a href="#">カテゴリ</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="p-footer-main__contact p-footer-main-contact">
+                        <div class="p-footer-main-contact__btn p-footer-main-contact-btn">
+                            <a href="#" class="p-footer-main-contact-btn__item p-footer-contact-btn__recruit">
+                                採用情報
+                            </a>
+                            <a href="#" class="p-footer-main-contact-btn__item p-footer-contact-btn__contact">
+                                お問い合わせ
+                            </a>
+                        </div>
+                        <div class="p-footer-main-contact__sns">
+                            <a href="#" class="p-footer-main-contact-sns__item">
+                                <img src="images/twitter-icon.svg" alt="ツイッターアイコン">
+                            </a>
+                            <a href="#" class="p-footer-main-contact-sns__item">
+                                <img src="images/facebook-icon.svg" alt="フェイスブックアイコン">
+                            </a>
+                            <a href="#" class="p-footer-main-contact-sns__item">
+                                <img src="images/instagram-icon.svg" alt="インスタグラムアイコン">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-footer__text">
+                    <p class="p-footer-text__policy">プライバシーポリシー</p>
+                    <small class="p-footer-text__copyright">Copyright(c) cocomate All Rights Reserved.</small>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
